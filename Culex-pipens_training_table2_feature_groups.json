@@ -1,0 +1,82 @@
+{
+  "season": [
+    "week_of_year"
+  ],
+  "coords": [
+    "longitude",
+    "latitude"
+  ],
+  "landcover_clc": [
+    "clc_urban_fabric",
+    "clc_industrial_transport",
+    "clc_green_urban_leisure",
+    "clc_arable_rainfed",
+    "clc_arable_irrigated",
+    "clc_rice",
+    "clc_permanent_crops",
+    "clc_pastures",
+    "clc_mixed_agriculture",
+    "clc_forest",
+    "clc_natural_open",
+    "clc_bare_sparse",
+    "clc_wetland_inland",
+    "clc_wetland_coastal",
+    "clc_water_inland",
+    "clc_lagoon_estuary"
+  ],
+  "landcover_clc_nbhd": [
+    "clc_nb_urban_fabric",
+    "clc_nb_industrial_transport",
+    "clc_nb_green_urban_leisure",
+    "clc_nb_arable_rainfed",
+    "clc_nb_arable_irrigated",
+    "clc_nb_rice",
+    "clc_nb_permanent_crops",
+    "clc_nb_pastures",
+    "clc_nb_mixed_agriculture",
+    "clc_nb_forest",
+    "clc_nb_natural_open",
+    "clc_nb_bare_sparse",
+    "clc_nb_wetland_inland",
+    "clc_nb_wetland_coastal",
+    "clc_nb_water_inland",
+    "clc_nb_lagoon_estuary"
+  ],
+  "landcover_comp": [
+    "lcc_forest_natural",
+    "lcc_agri_open",
+    "lcc_agri_wet",
+    "lcc_urban",
+    "lcc_wet_water"
+  ],
+  "topo": [
+    "elev_mean",
+    "elev_std"
+  ],
+  "water": [
+    "water_frac",
+    "water_frac_nb"
+  ],
+  "climate_core": [
+    "gdd_ytd",
+    "tas_0_2w",
+    "tas_4_8w"
+  ],
+  "climate_extra": [
+    "tas_2_4w",
+    "tasmin_0_4w",
+    "tasmax_0_4w",
+    "hot_days_0_4w",
+    "winter_tasmin"
+  ],
+  "climate_temp": [
+    "tas_0_2w",
+    "tas_2_4w",
+    "tas_4_8w",
+    "tasmin_0_4w",
+    "tasmax_0_4w",
+    "hot_days_0_4w",
+    "gdd_ytd",
+    "winter_tasmin"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "groups": [
+    "season",
+    "topo",
+    "climate_core",
+    "climate_extra",
+    "water"
+  ],
+  "features": [
+    "week_of_year",
+    "elev_mean",
+    "elev_std",
+    "gdd_ytd",
+    "tas_0_2w",
+    "tas_4_8w",
+    "tas_2_4w",
+    "tasmin_0_4w",
+    "tasmax_0_4w",
+    "hot_days_0_4w",
+    "winter_tasmin",
+    "water_frac",
+    "water_frac_nb"
+  ],
+  "params": {
+    "XGBoost": {
+      "n_estimators": 400,
+      "learning_rate": 0.01455887258919704,
+      "max_depth": 5,
+      "min_child_weight": 65,
+      "subsample": 0.5066670739504269,
+      "colsample_bytree": 0.5911145423779863,
+      "gamma": 1.4381761726547568,
+      "reg_alpha": 1.3139554672341793,
+      "reg_lambda": 8.640925176423677
+    },
+    "RandomForest": {
+      "n_estimators": 400,
+      "max_depth": 12,
+      "min_samples_split": 44,
+      "min_samples_leaf": 12,
+      "max_features": 0.295263328308525
+    }
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "weeks": [
+    21,
+    41
+  ],
+  "years": [
+    2008,
+    2022
+  ]
+}

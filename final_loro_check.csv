@@ -1,0 +1,25 @@
+model,region,n_cells,spearman_cell_mean
+XGBoost,Apulia,4,
+XGBoost,Autonomous Province of Trento,4,
+XGBoost,Basilicata,4,
+XGBoost,Emilia-Romagna,89,0.33886618998978557
+XGBoost,Friuli-Venezia Giulia,22,0.8181818181818183
+XGBoost,Lazio,30,0.4473859844271412
+XGBoost,Lombardy,53,0.6727947105305596
+XGBoost,Marche,20,0.3488721804511278
+XGBoost,Piedmont,79,0.5372930866601753
+XGBoost,Tuscany,37,0.5779990516832622
+XGBoost,Umbria,1,
+XGBoost,Veneto,83,0.5296587045044289
+RandomForest,Apulia,4,
+RandomForest,Autonomous Province of Trento,4,
+RandomForest,Basilicata,4,
+RandomForest,Emilia-Romagna,89,0.28001361933946206
+RandomForest,Friuli-Venezia Giulia,22,0.8802936194240545
+RandomForest,Lazio,30,0.4852057842046719
+RandomForest,Lombardy,53,0.6577164973391387
+RandomForest,Marche,20,0.1518796992481203
+RandomForest,Piedmont,79,0.535223953261928
+RandomForest,Tuscany,37,0.592460881934566
+RandomForest,Umbria,1,
+RandomForest,Veneto,83,0.520318206624407

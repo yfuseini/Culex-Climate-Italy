@@ -1,0 +1,26 @@
+{
+  "best_params": {
+    "n_estimators": 400,
+    "max_depth": 12,
+    "min_samples_split": 44,
+    "min_samples_leaf": 12,
+    "max_features": 0.295263328308525
+  },
+  "best_value": 1.5114101015688866,
+  "features": [
+    "week_of_year",
+    "elev_mean",
+    "elev_std",
+    "gdd_ytd",
+    "tas_0_2w",
+    "tas_4_8w",
+    "tas_2_4w",
+    "tasmin_0_4w",
+    "tasmax_0_4w",
+    "hot_days_0_4w",
+    "winter_tasmin",
+    "water_frac",
+    "water_frac_nb"
+  ],
+  "strong": true
+}
